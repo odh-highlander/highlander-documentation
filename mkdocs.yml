@@ -1,0 +1,40 @@
+site_name: Open Data Hub - Highlander
+site_url: https://odh-highlander.github.io/
+repo_url: https://github.com/odh-highlander
+edit_uri: https://github.com/odh-highlander/odh-highlander.github.io/tree/main/docs
+theme: 
+    name: material
+    logo: img/highlander-logo.svg
+    palette:
+      - scheme: default
+        toggle:
+          icon: material/weather-night
+          name: Switch to dark mode
+        primary: black
+        accent: light blue
+      - scheme: slate
+        toggle:      
+          icon: material/weather-sunny
+          name: Switch to light mode
+        primary: white
+        accent: light blue
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.sections
+        - navigation.indexes
+        - navigation.top
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
+    - Introduction: introduction.md
+    - JupyterLab Extension: usage.md
+    - Architecture: architecture.md
+
+
