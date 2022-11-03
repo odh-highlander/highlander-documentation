@@ -10,13 +10,13 @@ theme:
         toggle:
           icon: material/weather-night
           name: Switch to dark mode
-        primary: black
+        primary: blue
         accent: light blue
       - scheme: slate
         toggle:      
           icon: material/weather-sunny
           name: Switch to light mode
-        primary: white
+        primary: blue
         accent: light blue
     features:
         - navigation.instant
@@ -24,6 +24,7 @@ theme:
         - navigation.sections
         - navigation.indexes
         - navigation.top
+        - navigation.tabs
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -33,8 +34,12 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
-    - Introduction: introduction.md
-    - JupyterLab Extension: usage.md
+    - Home: home.md
+    - Introduction:
+      - The problem: problem.md
+      - The solution: solution.md
+      - Highlander in action: action.md
     - Architecture: architecture.md
-
-
+    - JupyterLab Extension:
+      - Basic usage: jupyterlab-extension/basic-usage.md
+      - Advanced functions: jupyterlab-extension/advanced-usage.md

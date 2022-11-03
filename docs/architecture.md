@@ -1,8 +1,4 @@
-# Architecture
-
-!!! note "Important, please read"
-
-    This project is a work in progress to properly refactor the initial code, which is meanwhile availablein different repos, [here](https://github.com/guimou/odh-highlander), [here](https://github.com/guimou/s2i-lmod-notebook) and [here](https://github.com/guimou/jupyter-lmod)
+# Highlander Architecture
 
 Multiple components and mechanisms are used to create and run the environment. Let's list them and see how they work together.
 
@@ -25,4 +21,3 @@ The [jupyterlab-extension](https://github.com/odh-highlander/jupyterlab-extensio
 ## JupyterLab
 
 In the [jupyterlab-highlander](https://github.com/odh-highlander/jupyterlab-highlander) repository, you will find the recipe to create a JupyterLab container image that will include the necessary components and configuration to dynamically load modules from the shared library. Of course a pre-built image is available.
-
