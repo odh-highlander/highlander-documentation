@@ -2,7 +2,8 @@ site_name: Open Data Hub - Highlander
 site_url: https://odh-highlander.github.io/
 repo_url: https://github.com/odh-highlander
 edit_uri: https://github.com/odh-highlander/odh-highlander.github.io/tree/main/docs
-theme: 
+theme:
+    favicon: img/favicon.png
     name: material
     logo: img/highlander-logo.svg
     palette:
@@ -40,6 +41,9 @@ nav:
       - The solution: solution.md
       - Highlander in action: action.md
     - Architecture: architecture.md
+    - Library:
+      - Quick deployment: library/quick-deployment.md
+      - Building the library: library/building.md
     - JupyterLab Extension:
       - Basic usage: jupyterlab-extension/basic-usage.md
       - Advanced functions: jupyterlab-extension/advanced-usage.md
