@@ -43,3 +43,4 @@ nav:
     - JupyterLab Extension:
       - Basic usage: jupyterlab-extension/basic-usage.md
       - Advanced functions: jupyterlab-extension/advanced-usage.md
+    - ROX/RWX Volume: rwx.md

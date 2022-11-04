@@ -1,4 +1,4 @@
-# Highlander Architecture
+# Highlander architecture
 
 Multiple components and mechanisms are used to create and run the environment. Let's list them and see how they work together.
 
